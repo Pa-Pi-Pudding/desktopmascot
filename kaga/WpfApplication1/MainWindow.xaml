@@ -1,0 +1,24 @@
+﻿<Window x:Class="DeskTopmaskot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="725"
+        AllowsTransparency="True"
+        Background="transparent"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        
+       >
+    <Window.ContextMenu>
+        <ContextMenu>
+
+            <MenuItem Header= "終了" Click="Quit_Clicked"/>
+        </ContextMenu>
+    </Window.ContextMenu>
+    <Grid>
+        <!--<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="aswdfer"/>
+        -->
+        <Image Source="ma/kcimgc.png" MouseLeftButtonDown="Image_MouseLeftButtonDown"/><!--画像を標示-->
+        
+    </Grid>
+    </Window>
